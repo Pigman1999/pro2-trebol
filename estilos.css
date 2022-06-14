@@ -1,0 +1,89 @@
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20220428/pngtree-saint-patricks-day-background-with-sprayed-clover-leaves-or-shamrocks-image_1109870.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+} 
+
+
+table{
+    background-image: url("https://img.freepik.com/vector-gratis/coleccion-ajolote-dibujada-mano_52683-79765.jpg?w=2000");
+    width: 90%;
+    margin: 70px auto;
+    background: rgb(139, 240, 8);
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(32, 173, 4);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(253, 237, 9);
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: rgb(230, 255, 1);
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #50d84b;
+}
+
+input[type="reset"]:hover{
+    background: #b9d84b;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.navbar{
+    background-color: rgb(46, 223, 11);
+    height: 80px;
+    width: 100%;
+    margin: 0%;
+}
+
+.navbar a{
+    float: right;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0%;
+} 
